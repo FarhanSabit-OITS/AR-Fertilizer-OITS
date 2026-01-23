@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-green-light: #28a351;
+  --color-brand-green-DEFAULT: #1a7a3a;
+  --color-brand-green-dark: #125629;
+
+  --color-brand-maroon-light: #d63e3e;
+  --color-brand-maroon-DEFAULT: #b02121;
+  --color-brand-maroon-dark: #8a1a1a;
+
+  --color-brand-gold-light: #f9e44f;
+  --color-brand-gold-DEFAULT: #f1c40f;
+  --color-brand-gold-dark: #c09c0c;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
