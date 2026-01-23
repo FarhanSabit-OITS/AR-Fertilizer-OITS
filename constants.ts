@@ -1,7 +1,7 @@
 
 import { Category, Product, TeamMember, GalleryItem, BlogPost } from './types';
 
-const asset = (path: string) => path;
+const asset = (path: string) => path.startsWith('/') ? path : `/${path}`;
 
 export const PRODUCTS: Product[] = [
   // Fertilizers (8)
