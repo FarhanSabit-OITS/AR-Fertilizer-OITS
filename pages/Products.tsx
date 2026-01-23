@@ -47,7 +47,7 @@ const Products: React.FC = () => {
         <div className="absolute top-0 right-0 w-1/3 h-full bg-white/10 skew-x-12 transform translate-x-20"></div>
         <div className="container mx-auto px-6 relative z-10">
           <h1 className="text-3xl md:text-7xl font-black text-white mb-4 md:mb-6 tracking-tighter">Product Catalog</h1>
-          <p className="text-brand-gold/80 text-base md:text-xl max-w-2xl leading-relaxed font-medium">
+          <p className="text-brand-emerald text-base md:text-xl max-w-2xl leading-relaxed font-medium">
             Explore our professional range of additives, fertilizers, and health solutions optimized for the Bangladesh agricultural market.
           </p>
         </div>

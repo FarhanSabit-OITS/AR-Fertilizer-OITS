@@ -115,17 +115,16 @@ const Gallery: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Header */}
-      <section className="bg-slate-900 pt-32 pb-24 text-center relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20 pointer-events-none">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-emerald-600/30 rounded-full blur-[120px]"></div>
-        </div>
+      <section className="bg-brand-maroon py-12 md:py-20 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-1/3 h-full bg-white/10 skew-x-12 transform translate-x-20"></div>
         <div className="container mx-auto px-6 relative z-10">
-          <h1 className="text-5xl md:text-8xl font-black text-white mb-8 tracking-tighter">Gallery</h1>
-          <p className="text-slate-400 text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+          <h1 className="text-3xl md:text-7xl font-black text-white mb-4 md:mb-6 tracking-tighter">Gallery</h1>
+          <p className="text-brand-emerald text-base md:text-xl max-w-2xl leading-relaxed font-medium">
             State-of-the-art facilities and strategic presence across Bangladesh's agricultural landscape.
           </p>
         </div>
       </section>
+
 
       {/* Tabs Filter */}
       <section className="py-12 bg-white sticky top-20 z-30 shadow-sm border-b border-slate-100">
@@ -136,8 +135,8 @@ const Gallery: React.FC = () => {
                 key={tab}
                 onClick={() => { setActiveTab(tab); setSelectedIndex(null); }}
                 className={`px-6 md:px-10 py-3 md:py-4 rounded-[1rem] md:rounded-[1.5rem] text-[9px] md:text-[10px] font-black tracking-[0.2em] uppercase transition-all duration-300 ${activeTab === tab
-                    ? 'bg-emerald-600 text-white shadow-2xl shadow-emerald-600/30 scale-105'
-                    : 'bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-slate-900'
+                  ? 'bg-emerald-600 text-white shadow-2xl shadow-emerald-600/30 scale-105'
+                  : 'bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-slate-900'
                   }`}
               >
                 {tab}

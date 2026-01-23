@@ -100,12 +100,12 @@ const Contact: React.FC = () => {
   return (
     <div className="bg-slate-50 min-h-screen">
       {/* Header */}
-      <section className="bg-slate-900 pt-24 md:pt-32 pb-32 md:pb-48 text-center relative overflow-hidden">
+      <section className="bg-emerald-700 pt-24 md:pt-32 pb-32 md:pb-48 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-brand-maroon-dark/20 via-transparent to-transparent"></div>
         <div className="absolute bottom-0 left-0 w-full h-32 bg-slate-50 translate-y-1 clip-path-slant"></div>
         <div className="container mx-auto px-6 relative z-10">
-          <h1 className="text-3xl md:text-7xl font-black text-white mb-4 md:mb-6 tracking-tighter">Let's Connect</h1>
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+          <h1 className="text-3xl md:text-7xl font-black text-emerald-100 mb-4 md:mb-6 tracking-tighter">Let's Connect</h1>
+          <p className="text-emerald-100 text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
             Contact us for wholesale inquiries, partnerships, or technical support for our animal health products.
           </p>
         </div>

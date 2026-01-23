@@ -75,7 +75,7 @@ const About: React.FC = () => {
   return (
     <div>
       {/* Hero Header */}
-      <section className="bg-slate-900 py-24 relative overflow-hidden">
+      <section className="bg-slate-700 py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-emerald-600/10 mix-blend-overlay"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 animate-in fade-in slide-in-from-top-8 duration-1000">Our Legacy & Mission</h1>
