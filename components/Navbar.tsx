@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             {/* Added a solid background and padding to ensure the logo is visible even if it has transparency */}
             <div className="bg-white rounded-xl p-1 shadow-md border border-slate-100 flex items-center justify-center">
               <img
-                src="assets/afrin-logo-02.png"
+                src="/assets/afrin-logo-02.png"
                 alt="AR Animal Health Logo"
                 className="h-10 md:h-12 w-auto object-contain"
               />

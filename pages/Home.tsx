@@ -80,9 +80,9 @@ const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Feed Additives", count: "20+ Products", icon: Droplets, img: "assets/portfolio/portfolio-7.jpg" },
-              { name: "Minerals", count: "10+ Products", icon: TrendingUp, img: "assets/portfolio/portfolio-8.jpg" },
-              { name: "Veterinary Health", count: "15+ Products", icon: ShieldCheck, img: "assets/portfolio/portfolio-9.jpg" }
+              { name: "Feed Additives", count: "20+ Products", icon: Droplets, img: "/assets/portfolio/portfolio-7.jpg" },
+              { name: "Minerals", count: "10+ Products", icon: TrendingUp, img: "/assets/portfolio/portfolio-8.jpg" },
+              { name: "Veterinary Health", count: "15+ Products", icon: ShieldCheck, img: "/assets/portfolio/portfolio-9.jpg" }
             ].map((cat, idx) => (
               <Link to="/products" key={idx} className="group relative h-[450px] overflow-hidden rounded-[3rem] shadow-lg">
                 <img src={cat.img} alt={cat.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-brand-maroon/5 rounded-full blur-3xl opacity-60" />
               <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-brand-green/5 rounded-full blur-3xl opacity-60" />
               <div className="relative rounded-[3rem] overflow-hidden shadow-2xl z-10 aspect-[4/5]">
-                <img src="assets/team/team-1.jpg" alt="AR Animal Health CEO" className="w-full h-full object-cover" />
+                <img src="/assets/team/team-1.jpg" alt="AR Animal Health CEO" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-6 -left-6 md:-left-6 bg-white p-6 md:p-8 rounded-3xl shadow-xl z-20 max-w-[280px] md:max-w-[320px] border border-slate-100">
                 <p className="text-slate-600 italic mb-4 leading-relaxed font-medium text-sm md:text-base">"Our mission is to nurture the livestock of our nation with world-class biotechnology and integrity."</p>

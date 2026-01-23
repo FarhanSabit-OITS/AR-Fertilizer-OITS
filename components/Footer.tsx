@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3 mb-8 group">
               <div className="bg-white rounded-xl p-2 shadow-lg group-hover:rotate-3 transition-transform">
                 <img
-                  src="assets/afrin-logo-02.png"
+                  src="/assets/afrin-logo-02.png"
                   alt="AR Fertilizer Logo"
                   className="h-12 w-auto object-contain"
                 />

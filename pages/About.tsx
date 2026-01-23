@@ -106,7 +106,7 @@ const About: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-in fade-in slide-in-from-right-8 duration-1000">
               <div className="space-y-6 sm:mt-12">
-                <img src="assets/portfolio/portfolio-4.jpg" alt="Facility Gate" className="rounded-3xl shadow-xl w-full h-auto object-cover aspect-square hover:scale-[1.02] transition-transform" />
+                <img src="/assets/portfolio/portfolio-4.jpg" alt="Facility Gate" className="rounded-3xl shadow-xl w-full h-auto object-cover aspect-square hover:scale-[1.02] transition-transform" />
                 <div className="bg-emerald-600 p-8 rounded-3xl text-white shadow-xl">
                   <h4 className="text-4xl font-black mb-1">2010</h4>
                   <p className="font-bold uppercase tracking-widest text-sm text-emerald-100">Year Founded</p>
@@ -117,7 +117,7 @@ const About: React.FC = () => {
                   <h4 className="text-4xl font-black mb-1">GMP</h4>
                   <p className="font-bold uppercase tracking-widest text-sm text-slate-400">Quality Standards</p>
                 </div>
-                <img src="assets/portfolio/portfolio-5.jpg" alt="Production Unit" className="rounded-3xl shadow-xl w-full h-auto object-cover aspect-square hover:scale-[1.02] transition-transform" />
+                <img src="/assets/portfolio/portfolio-5.jpg" alt="Production Unit" className="rounded-3xl shadow-xl w-full h-auto object-cover aspect-square hover:scale-[1.02] transition-transform" />
               </div>
             </div>
           </div>
