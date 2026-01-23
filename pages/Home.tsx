@@ -55,9 +55,18 @@ const Home: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {PARTNER_DETAILS.map((p, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-[2rem] shadow-sm border border-slate-100 text-center hover:scale-105 transition-transform">
-                <h4 className="text-2xl font-black text-brand-maroon mb-2">{p.name}</h4>
-                <p className="text-slate-400 text-xs font-bold uppercase tracking-widest">Global Provider</p>
+              <div key={idx} className="group relative h-48 bg-white rounded-[2rem] shadow-sm border border-slate-100 overflow-hidden hover:shadow-xl transition-all duration-500">
+                {/* Image/Logo State */}
+                <div className="absolute inset-0 flex items-center justify-center p-6 bg-white transition-opacity duration-300 group-hover:opacity-10">
+                  <img src={p.logo} alt={p.name} className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" />
+                </div>
+
+                {/* Hover Text Reveal State */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-brand-maroon/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0 text-center">
+                  <h4 className="text-xl font-black text-brand-gold mb-2">{p.name}</h4>
+                  <p className="text-white text-xs leading-relaxed opacity-90">{p.desc}</p>
+                  <div className="mt-3 w-8 h-1 bg-brand-gold/50 rounded-full"></div>
+                </div>
               </div>
             ))}
           </div>
