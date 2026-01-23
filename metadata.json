@@ -1,0 +1,7 @@
+{
+  "name": "AR Fertilizer Ltd",
+  "description": "Professional corporate website for AR Fertilizer Ltd, specializing in premium agricultural fertilizers, feed additives, and poultry health solutions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
